@@ -1,4 +1,4 @@
-fetch-request
+fetch-request ![](https://img.shields.io/npm/v/@hirohe/fetch-request.svg)
 =============
 
 a wrapper of [isomorphic-fetch](https://github.com/matthew-andrews/isomorphic-fetch)
