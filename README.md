@@ -54,11 +54,11 @@ export interface RequestOptions extends RequestInit {
 }
 ```
 
-- baseUrl: prepended to `url`.
-- data: the request body data, it should be plain object for now...
-- params: will add to request query string, should be plain object.
-- responseType: decide witch type of response is, can be 'json', 'blob', 'formData', 'arrayBuffer', 'text'. is 'json' by default
-- withTimestamp: weather append timestamp param to query string, e.g: `_t=1532915637137`. it makes each request unique, prevent getting cache from server, is `true` by default
+- `baseUrl`: prepended to `url`.
+- `data`: the request body data, it should be plain object for now...
+- `params`: will add to request query string, should be plain object.
+- `responseType`: decide witch type of response is, can be 'json', 'blob', 'formData', 'arrayBuffer', 'text'. is 'json' by default
+- `withTimestamp`: weather append timestamp param to query string, e.g: `_t=1532915637137`. it makes each request unique, prevent getting cache from server, is `true` by default
 
 ### request methods
 
