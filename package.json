@@ -1,6 +1,6 @@
 {
   "name": "@hirohe/fetch-request",
-  "version": "0.0.1-alpha3",
+  "version": "0.0.1-alpha4",
   "description": "wrapper of isomorphic-fetch",
   "main": "lib/fetch-request.js",
   "scripts": {
@@ -9,6 +9,7 @@
     "build": "rollup -c"
   },
   "author": "hirohe",
+  "repository": "hirohe/fetch-request",
   "license": "MIT",
   "devDependencies": {
     "babel-core": "^6.26.3",
