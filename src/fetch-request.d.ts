@@ -1,6 +1,8 @@
 export interface RequestOptions extends RequestInit {
   baseUrl?: string;
-  responseType?: 'json' | 'blob' | 'formData' | 'arrayBuffer' | string;
+  data?: object;
+  params?: object;
+  responseType?: 'json' | 'blob' | 'formData' | 'arrayBuffer' | 'text' | string;
   withTimestamp?: boolean;
 }
 

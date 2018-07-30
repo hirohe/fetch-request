@@ -83,6 +83,8 @@ function FetchRequest(options) {
     baseUrl: '',
     method: 'GET',
     headers: {},
+    data: {},
+    params: {},
     responseType: 'json',
     withTimestamp: true,
     credentials: 'include',
