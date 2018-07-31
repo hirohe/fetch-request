@@ -2,6 +2,12 @@
   "name": "@hirohe/fetch-request",
   "version": "0.0.1-alpha4",
   "description": "wrapper of isomorphic-fetch",
+  "keywords": [
+    "fetch",
+    "wrapper",
+    "request",
+    "http request"
+  ],
   "main": "lib/fetch-request.js",
   "scripts": {
     "test": "jest --verbose --detectOpenHandles",
